@@ -1,72 +1,8 @@
 ---
-BasedOnStyle: LLVM
+BasedOnStyle: GNU
 
-AccessModifierOffset: -5
-AlignAfterOpenBracket: Align
-AlignArrayOfStructures: Right
-AlignConsecutiveAssignments:
-     Enabled: true
-     AcrossEmptyLines: true
-     AcrossComments: true
-AlignConsecutiveDeclarations:
-     Enabled: true
-     AcrossEmptyLines: true
-     AcrossComments: true
-AlignConsecutiveMacros:
-     Enabled: true
-     AcrossEmptyLines: true
-     AcrossComments: true
-AlignEscapedNewlines: Left
-AlignOperands: AlignAfterOperator
-AlignTrailingComments:
-     Kind: Always
-     OverEmptyLines: 0
-AllowShortBlocksOnASingleLine: Never
-AllowShortFunctionsOnASingleLine: InlineOnly
-AllowShortIfStatementsOnASingleLine: Never
-AllowShortLambdasOnASingleLine: Inline
-AllowShortLoopsOnASingleLine: false
-BraceWrapping:
-     AfterCaseLabel: false
-     AfterClass: false
-     AfterControlStatement: Never
-     AfterEnum: false
-     AfterExternBlock: true
-     AfterFunction: true
-     AfterNamespace: true
-     AfterObjCDeclaration: true
-     AfterStruct: false
-     AfterUnion: false
-     BeforeCatch: true
-     BeforeElse: true
-     BeforeLambdaBody: false
-     BeforeWhile: true
-     IndentBraces: false
-     SplitEmptyFunction: true
-     SplitEmptyRecord: true
-     SplitEmptyNamespace: true
-BreakBeforeBinaryOperators: All
-BreakBeforeBraces: Custom
-BreakConstructorInitializers: BeforeComma
-BreakInheritanceList: BeforeComma
-ColumnLimit: 80
-CompactNamespaces: true
-ContinuationIndentWidth: 5
-FixNamespaceComments: true
-IncludeBlocks: Regroup
+BreakBeforeBraces: Linux
 IndentPPDirectives: AfterHash
 IndentWidth: 5
-InsertNewlineAtEOF: true
-LambdaBodyIndentation: Signature
-LineEnding: DeriveLF
-MaxEmptyLinesToKeep: 1
-PenaltyBreakBeforeFirstCallParameter: 100
-PPIndentWidth: 4
-PointerAlignment: Left
-ReflowComments: true
-ReferenceAlignment: Pointer
-SortIncludes: CaseSensitive
-SpaceInEmptyBlock: true
-SpacesBeforeTrailingComments: 2
 TabWidth: 8
 UseTab: Never
