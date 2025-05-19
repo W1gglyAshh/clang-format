@@ -1,8 +1,22 @@
 ---
 BasedOnStyle: GNU
 
-BreakBeforeBraces: Linux
-IndentPPDirectives: AfterHash
-IndentWidth: 5
+AlignAfterOpenBracket: DontAlign
+AllowShortFunctionsOnASingleLine: Inline
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+     AfterControlStatement: false
+     AfterEnum: true
+     AfterFunction: true
+     AfterStruct: true
+     AfterUnion: true
+     BeforeElse: true
+     IndentBraces: false
+BreakBeforeBraces: Custom
+ColumnLimit: 80
+IndentWidth: 8
+PointerAlignment: Left
+SpaceBeforeParens: ControlStatements
 TabWidth: 8
 UseTab: Never
